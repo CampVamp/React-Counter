@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.window{
+  width: 60vw;
+  height: 60vh;
+  margin: 40vh auto;
+  border-width: medium;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+}
+
+.topbar{
+  width: auto;
+  height: 10vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0%;
+  padding: 6px 18px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: #d3d4cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

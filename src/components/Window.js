@@ -12,7 +12,8 @@ const Window = ({title}) => {
         </div>
         <div className="mainframe">
             <h3>{n}</h3>
-            <button onClick={increment}>Add</button>
+            <button className="btn" onClick={increment}>Add</button>
+            <button className="btn">Reset</button>
         </div>
     </div>
   )

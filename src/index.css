@@ -49,3 +49,7 @@ code {
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
+
+.btn{
+  font-family: 'Times New Roman', Times, serif;
+}

@@ -13,7 +13,7 @@ code {
 }
 
 .window{
-  width: 60vw;
+  width: fit-content;
   height: 60vh;
   margin: 40vh auto;
   border-width: medium;
@@ -45,6 +45,7 @@ code {
   align-items: center;
   justify-content: center;
   background-color: blueviolet;
+  padding: 0px 20px;
   height: 48.2vh;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -55,12 +56,18 @@ code {
   font-size: 16px;
   background-color:rgb(28, 173, 47);
   padding: 15px 25px;
-  margin: auto 20px auto 40px;
+  margin: auto 40px auto 20px;
   cursor: pointer;
   border-radius: 10px;
   border: none;
   box-shadow: 0px 7px 0px 0px rgb(16, 99, 27);
   color: white;
+}
+
+.counter{
+  width: 30px;
+  background-color: white;
+
 }
 
 .btn:active{

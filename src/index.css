@@ -15,7 +15,7 @@ code {
 .window{
   width: fit-content;
   height: 60vh;
-  margin: 40vh auto;
+  margin: 60px auto;
   border-width: medium;
   border-style: solid;
   border-color: black;

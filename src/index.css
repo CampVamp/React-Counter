@@ -31,9 +31,10 @@ code {
   text-overflow: ellipsis;
   margin-top: 0%;
   padding: 6px 18px;
+  border-style: solid;
+  border-width: 0 0 2px 0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  background-color: #d3d4cb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,9 +45,8 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blueviolet;
   padding: 0px 20px;
-  height: 48.2vh;
+  height: 48vh;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }

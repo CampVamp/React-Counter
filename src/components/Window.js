@@ -1,20 +1,20 @@
 import { useState } from "react"
 
 const Window = ({title}) => {
-    const [n,setn] = useState(1)
+    const [number,setNumber] = useState(0)
     function increment(){
-        setn(prevn=>prevn+1)
+        setNumber(prevn=>prevn+1)
     }
     function reset(){
-        setn(prevn=>prevn=0)
+        setNumber(prevn=>prevn=0)
     }
     return (
     <div className="window">
         <div className="topbar">
             <h2>{title}</h2>
         </div>
+        <h3 className="counter">{number}</h3>
         <div className="mainframe">
-            <h3 className="counter">{n}</h3>
             <button className="btn" onClick={increment}>Add</button>
             <button className="btn" onClick={reset}>Reset</button>
         </div>
